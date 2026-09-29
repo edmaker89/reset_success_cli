@@ -9,7 +9,7 @@ AUTH_TOKEN = os.getenv("AUTH_TOKEN")
 API_URL = os.getenv("API_URL", "https://seu-endpoint")
 
 cpfs = [
-    "05540983181"
+    "000.000.000-00",
 ]
 
 headers = {
