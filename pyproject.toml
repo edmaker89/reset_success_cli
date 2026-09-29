@@ -1,0 +1,22 @@
+[project]
+name = "reset-success-cli"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Douglas Euclides da Silva", email = "douglas.euclides@ssa-br.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=3.0.6",
+    "requests>=2.34.2",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+reset-success-cli = "reset_success_cli:main"
+reset-painel = "reset_success_cli.painel:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
